@@ -20,4 +20,4 @@ A simple header-only string library written in C++ using a similar interface to 
 C++14 language version.
 
 ## License
-Licensed under MIT.
+Licensed under [MIT](LICENSE).
