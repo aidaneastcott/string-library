@@ -409,6 +409,7 @@ StringType<ValueType> &StringType<ValueType>::operator=(ConstPointer cstring) {
 	if (size == 0) {
 		if (m_capacity > 0) {
 			m_data[0] = NUL_TERMINATION;
+			m_size = 0;
 		}
 		return *this;
 	}
@@ -440,6 +441,7 @@ StringType<ValueType> &StringType<ValueType>::operator=(const StringType &object
 	if (object.m_size == 0) {
 		if (m_capacity > 0) {
 			m_data[0] = NUL_TERMINATION;
+			m_size = object.m_size;
 		}
 		return *this;
 	}
