@@ -15,6 +15,7 @@ A simple header-only string library written in C++ using a similar interface to 
 
 ## Todo
 - Add iterator support
+- Add allocator support
 - Implement SSO (Small String Optimization)
 
 ## Project Requirements
